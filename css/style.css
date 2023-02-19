@@ -147,7 +147,7 @@ nav .icon i {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;height: 235px;}
+  background-size: cover;height: 297px;}
 /************* *************/
 /* breakfast_basket */
 .breakfast_basket{
@@ -178,7 +178,7 @@ nav .icon i {
     padding: 0.8em 0px;
     text-align: center;
     width: 100%;
-    color: var(--secondary);
+    color: #685A4D;
     font-size: 13px;
 
 }
@@ -193,9 +193,9 @@ nav .icon i {
 .breakfast_basket .nav-tabs>li:first-child{
     border-right:  unset;
 }
+.breakfast_basket.nav-tabs>li.active>a:hover{ color:#AFAFAF !important;}
 .breakfast_basket .nav-tabs>li.active>a,
 .breakfast_basket .nav-tabs>li.active>a:focus,
-.breakfast_basket.nav-tabs>li.active>a:hover,
 .breakfast_basket .nav>li>a:focus{
     background-color: #F16236 !important;
     color: var(--card_bg) !important;
@@ -544,6 +544,11 @@ nav .icon i {
    background-color: var(--on_hover);
 }
 /* End payment_method */
+.social_login span{
+    display: inline-block;
+    vertical-align: super;;
+
+}
 
 .social_login{
     margin-top: 2em;
@@ -901,7 +906,8 @@ select {
 }
 
 .bonm::after {
-  content: "▼";
+  font-family: Fontawesome;
+  content: '\f078';
   font-size: 1rem;
   top: 15px;
   left: 18px;
@@ -1107,6 +1113,7 @@ select {
 @media only screen and (max-width: 375px)
 {
     .head-bg {background: url(../images/header/375.png) no-repeat center right;height: 178px;}
+    .payment_method .radio-inline {padding-right: 0px !important;}
 }
 /**************************************/
 @media only screen and (max-width: 340px)
