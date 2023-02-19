@@ -30,7 +30,17 @@ a:focus-within{
 }
 /* fonface*/
 @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;900&display=swap');
-
+/* fonface*/
+@font-face {
+    font-family: 'Tajawal';
+    src: url("../fonts/Tajawal-Regular.ttf");
+    src: url("../fonts/Tajawal-Black.ttf");
+    src: url("../fonts/Tajawal-Bold.ttf");
+    src: url("../fonts/Tajawal-ExtraBold.ttf");
+    src: url("../fonts/Tajawal-ExtraLight.ttf");
+    src: url("../fonts/Tajawal-Light.ttf");
+    src: url("../fonts/Tajawal-Medium.ttf");
+}
 /* begin color variable */
 :root {
     --secondary: #87786C;
@@ -965,7 +975,7 @@ select {
 
 /* responsive */
 @media (max-width: 1199.98px) {
-  body{font-family: 'Tajawal', sans-serif !important;}  
+  body{font-family: 'Tajawal', sans-serif !important;}
 }
 /****************************************************/
 @media (max-width: 991.98px) {
