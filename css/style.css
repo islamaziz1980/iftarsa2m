@@ -65,7 +65,7 @@ a:focus-within{
 }
 
 body {
-    font-family: 'Tajawal', serif;
+  font-family: 'Tajawal', sans-serif;
     overflow: hidden;
 }
 
@@ -965,7 +965,7 @@ select {
 
 /* responsive */
 @media (max-width: 1199.98px) {
-
+  body{font-family: 'Tajawal', sans-serif !important;}  
 }
 /****************************************************/
 @media (max-width: 991.98px) {
