@@ -1,0 +1,600 @@
+
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+  <meta charset="utf-8">
+  <!--IE compatibility Meta -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- first mobile meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Eftar</title>
+
+  <!-- Bootstrap -->
+  <link href="./css/bootstrap_rtl.css" rel="stylesheet" />
+  <!-- fontawsome  -->
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+   />
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+  <!-- My Css style -->
+  <link rel="stylesheet" href="css/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <!-- animate.css file required for wow library -->
+  <!-- <link rel="stylesheet" href="css/animate.css" /> -->
+
+  <!-- [if it ie 9] -->
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/respond.min.js"></script>
+  <!-- [end if] -->
+
+</head>
+
+<body>
+  <header>
+    <div class="container-fulid head-bg-cont">
+      <div class="row head-bg"></div>
+    </div>
+  </header>
+  <div class="clearfix"></div>
+
+
+  <!--  -->
+  <!--biggen family breakfast  -->
+  <div class="family_breakfast">
+    <div class="container">
+      <!-- <h4 class="h4 mb-5"> ساهم في إفطار أسرة طوال شهر رمضان </h4> -->
+      <div class="row">
+        <div class="col-md-6 text-center">
+          <h4 class="h4">ساهم في إفطار أسرة </h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+
+          <div class="breakfast_basket">
+            <div class="container-fluid">
+              <div class="tab-content">
+
+                <div id="tab1" class="tab-pane fade in active ">
+                  <img class="img-responsive " src="./images/breakfast_basket/1.svg" alt="" srcset="">
+                </div>
+                <div id="tab2" class="tab-pane fade in">
+                  <img class="img-responsive " src="./images/breakfast_basket/7.5.svg" alt="" srcset="">
+                </div>
+                <div id="tab3" class="tab-pane fade in">
+                  <img class="img-responsive " src="./images/breakfast_basket/15.svg" alt="" srcset="">
+                </div>
+                <div id="tab4" class="tab-pane fade in">
+                  <img class="img-responsive " src="./images/breakfast_basket/30.svg" alt="" srcset="">
+                </div>
+              </div>
+
+              <ul class="nav nav-tabs">
+                <li class="active">
+                  <a data-toggle="tab" href="#tab1">
+                    <span> 1 دينار</span>
+                    سهم السلة
+                  </a>
+                </li>
+                <li>
+                  <a data-toggle="tab" href="#tab2">
+                    <span> 7.5 دينار </span>
+                    تكفي أسبوع
+                  </a>
+                </li>
+                <li>
+                  <a data-toggle="tab" href="#tab3">
+                    <span> 15 دينار </span>
+                    تكفي نصف شهر
+                  </a>
+                </li>
+                <li>
+                  <a data-toggle="tab" href="#tab4">
+                    <span> 30 دينار </span>
+                    تكفي شهر
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="row">
+            <!-- beggin Col -->
+            <div class="col-md-6 col-xs-12">
+              <div class="form-group bonm">
+                <span class="has-float-label">
+                  <label for="country">الدولة</label>
+                  <select id="country" class="form-control">
+                    <option>اختر الدولة</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                  </select>
+                </span>
+              </div>
+            </div>
+            <!-- End Col -->
+
+            <!-- beggin Col -->
+            <div class="col-md-6 col-xs-12">
+              <div class="form-group  family_num">
+                <button type="button " class="btn increment">
+                  <i class="fa fa-plus"></i>
+                </button>
+                <span class="has-float-label">
+                  <label for="family_num_input">عدد الأسر</label>
+                  <input class="form-control text-center" value="0" minlength="0" id="family_num_input" type="number" />
+                </span>
+                <button type="button" class="btn decrement">
+                  <i class="fa fa-minus"></i>
+                </button>
+              </div>
+            </div>
+            <!-- End Col -->
+
+          </div>
+          <!-- end row -->
+          <div class="total_amount">
+            <div class="total_amount_content tot-don">
+                <p><span>المبلغ الكلي:</span> 30 دينار</p>
+            </div>
+          </div>
+
+          <div class="notes">
+            <label for="notes_content" class="notes_title">ملاحظاتك</label>
+            <textarea class="form-control" id="notes_content" rows="3">اذا كنت شاركت مع الرحمه العاملة في بناء مسجد برجاء ذكر اسمه او رقمه</textarea>
+          </div>
+
+          <div class="family_breakfast_btn">
+              <button type="button" class="btn" data-toggle="modal" data-target="#flipFlop">تبرع الآن</button>
+              <button type="button" class="btn add_toCard"  > أضف للعربة <i class="fa fa-cart-plus"></i></button>
+          </div>
+        </div>
+        <!-- end col -->
+      </div>
+    </div>
+  </div>
+
+  <!-- beggin model -->
+  <div class="modal fade donate_now" id="flipFlop" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#doer_of_good">فاعل خير</a></li>
+            <li><a data-toggle="tab" href="#create_account"> إنشاء حساب </a></li>
+            <li><a data-toggle="tab" href="#sign_in"> تسجيل الدخول </a></li>
+          </ul>
+          <div class="tab-content">
+            <!--beggin doer_of_good -->
+            <div id="doer_of_good" class="tab-pane fade in active">
+              <div class="container-fluid">
+              <div class="doer_good">
+                <h4 class="h4 text-mute">لا مانع لدي عند اختيار "فاعل خير" بعدم استقبال رسالة نصية بالتبرع أو بريد إلكتروني.</h4>
+                <form action="">
+                  <input id="phone"  class="form-control" type="tel" name="phone" />
+                </form>
+                <div class="payment_method">
+                  <h5 class="h5">طريقة الدفع</h5>
+                  <div class="row">
+                    <div class="col-md-4 col-xs-6">
+                      <label class="radio-inline">
+                      <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                      <img class="img-responsive" src="./images/payment_method/visa.svg" alt="" srcset="">
+                    </label>
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                      <label class="radio-inline">
+                      <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                      <img class="img-responsive" src="./images/payment_method/knet.svg" alt="" srcset="">
+                    </label>
+                    </div>
+                    <div class="col-md-4 col-xs-6 pay">
+                      <label class="radio-inline">
+                      <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                      <img  class="img-responsive" src="./images/payment_method/pay.svg" alt="" srcset="">
+                    </label>
+                    </div>
+                  </div>
+                  <div class="mt-5 mb-5">
+                    <button type="button " class="btn payment_btn">اتمام التبرع</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+            <!--End doer_of_good -->
+            <div id="create_account" class="tab-pane fade in">
+              <div class="container-fluid">
+
+              <div class="social_login">
+                <a class="btn btn-default face-log" href="#" role="button">
+                  <i class="fa fa-facebook-square fa-2x"></i>
+                <span>عن طريق فيسبوك </span>
+                </a>
+                <a class="btn btn-default goog-log" href="#" role="button">
+                    <i class="fa fa-google fa-2x"></i>
+                    <span>عن طريق جوجل </span>
+                </a>
+              </div>
+              <h4 class="or">او</h4>
+              <form action="">
+                <div class="row">
+                  <div class="col-md-6">
+                    <span class="has-float-label">
+                      <label for="Emal"><span class="text-danger"> * </span>البريد الإلكتروني </label>
+                      <input class="form-control" id="Emal" type="text" />
+                    </span>
+                  </div>
+                  <div class="col-md-6">
+                    <span class="has-float-label">
+                      <label for="password"> <span class="text-danger"> * </span> كلمة المرور  </label>
+                      <input class="form-control" id="password" type="password" />
+                    </span>
+                  </div>
+                  <div class="col-md-6">
+                    <span class="has-float-label">
+                      <label for="donor_name"> اسم المتبرع   </label>
+                      <input class="form-control" id="donor_name" type="text" />
+                    </span>
+                  </div>
+                  <div class="col-md-6">
+                    <span class="has-float-label">
+                      <label for="gender"> <span class="text-danger"> * </span> النوع </label>
+                      <div class="rad-boz">
+                              <li class="radio-inline li-rad">
+                                <input type="radio" name="op1" id="male" value="option1"> ذكر
+                              </li>
+                              <li class="radio-inline li-rad">
+                                <input type="radio" name="op1" id="female" value="option2"> أنثي
+                              </li>
+                            </div>
+                    </span>
+                  </div>
+                  <div class="col-md-6">
+                    <span class="has-float-label">
+                      <label for="donor_name"><span class="text-danger"> * </span>  رقم الموبايل </label>
+                      <input id="create_account_phone"  class="form-control" type="tel" name="phone" />
+                    </span>
+                  </div>
+                  <div class="col-md-6">
+                    <span class="has-float-label bonm">
+                      <label for="country" > <span class="text-danger"> * </span> الدولة  </label>
+                      <select class="form-control" id="country">
+                        <option>اختر الدولة</option>
+                      </select>
+                    </span>
+                  </div>
+                </div>
+              </form>
+              <div class="payment_method">
+                <h5 class="h5 ">طريقة الدفع</h5>
+                <div class="row">
+                  <div class="col-md-4 col-xs-6">
+                    <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <img class="img-responsive" src="./images/payment_method/visa.svg" alt="" srcset="">
+                  </label>
+                  </div>
+                  <div class="col-md-4 col-xs-6">
+                    <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <img class="img-responsive" src="./images/payment_method/knet.svg" alt="" srcset="">
+                  </label>
+                  </div>
+                  <div class="col-md-4 col-xs-6 pay">
+                    <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <img  class="img-responsive" src="./images/payment_method/pay.svg" alt="" srcset="">
+                  </label>
+                  </div>
+
+                </div>
+                <div class="mt-5 mb-5 text-center">
+                  <button type="button " class="btn payment_btn">اتمام التبرع</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+            <div id="sign_in" class="tab-pane fade in">
+              <div class="container-fluid">
+
+                <div class="social_login">
+                  <a class="btn btn-default face-log" href="#" role="button">
+                    <i class="fa fa-facebook-square fa-2x"></i>
+                  <span>عن طريق فيسبوك </span>
+                  </a>
+                  <a class="btn btn-default goog-log" href="#" role="button">
+                      <i class="fa fa-google fa-2x"></i>
+                      <span>عن طريق جوجل </span>
+                  </a>
+                </div>
+                <h4 class="or">او</h4>
+                <form action="">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <span class="has-float-label">
+                        <label for="Emal"><span class="text-danger"> * </span>البريد الإلكتروني </label>
+                        <input class="form-control" id="Emal" type="text" />
+                      </span>
+                    </div>
+                    <div class="col-md-6">
+                      <span class="has-float-label">
+                        <label for="password"> <span class="text-danger"> * </span> كلمة المرور  </label>
+                        <input class="form-control" id="password" type="password" />
+                      </span>
+                    </div>
+                  </div>
+                </form>
+                <div class="payment_method">
+                  <h5 class="h5 ">طريقة الدفع</h5>
+                  <div class="row">
+                    <div class="col-md-3 col-xs-6">
+                      <label class="radio-inline">
+                      <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                      <img class="img-responsive" src="./images/payment_method/visa.svg" alt="" srcset="">
+                    </label>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                      <label class="radio-inline">
+                      <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                      <img class="img-responsive" src="./images/payment_method/knet.svg" alt="" srcset="">
+                    </label>
+                    </div>
+                    <div class="col-md-3 col-xs-6 pay">
+                      <label class="radio-inline">
+                      <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                      <img  class="img-responsive" src="./images/payment_method/pay.svg" alt="" srcset="">
+                    </label>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                      <label class="radio-inline">
+                      <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                      <img  class="img-responsive" src="./images/payment_method/rasidy.svg" alt="" srcset="">
+                    </label>
+                    </div>
+                  </div>
+                  <div class="mt-5 mb-5 text-center">
+                    <button type="button " class="btn payment_btn">اتمام التبرع</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- End model -->
+  <!-- beggin model -->
+  <div class="modal fade donate_now" id="addToCard" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="">
+            <img src="./images/Animation.gif" class="img-responsive" alt="" srcset="">
+          </div>
+          <p class="text-center">هنيئا لك الأجر 🎉 .. تمت الإضافة للعربة بنجاح!</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- End model -->
+
+  <!--  -->
+
+  <!-- start infos -->
+
+  <section class="infos">
+    <div class="container">
+
+      <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#home">اعرف المزيد</a></li>
+        <li><a data-toggle="tab" href="#menu1">تقارير المشروع</a></li>
+
+      </ul>
+
+      <div class="tab-content">
+        <div id="home" class="tab-pane fade in active">
+          <div>
+
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingOne">
+                  <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+                      aria-expanded="false" aria-controls="collapseOne"> السؤال الأول </a> </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                  <div class="panel-body">
+                    إفطار صائم في رمضان .. ينقذ الأراوح
+                    يهلّ علينا شهر رمضان المبارك حاملاً لقلوبنا أملاً جديداً في طريقنا إلى الله عز وجل، وبالرغم من
+                    بركات
+                    هذا الشهر وأجواء بهجته، إلا أن حال أكثر من 800 مليون إنسان حول العالم لا يسرّ أحداً. تقارير هيئات
+                    الأمم المتحدة تدق ناقوس الخطر، فالجوع يهتك بأجساد مئات الآلاف من الأطفال حول العالم.
+                    في اليمن نزاعٌ يهدد حياة 24 مليون إنسان، وفي سوريا لجوءٌ وفقر ويتم يحرم ملايين الأسر من التجمع على
+                    مائدة الفطور، وفي النيجر وبنجلاديش فيضانات وكوارث تهدد الأمن الغذائي، وفي الصومال جفافٌ يجفف
+                    الحياة من
+                    أجساد أكثر من مليون طفل. الأمر الذي جعل قدوم شهر رمضان بلا أثرٍ يُذكَر على موائد الفقراء
+                    والمحتاجين،
+                    فهم المفطرون بلا إفطار والصائمون بلا سحور.
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                  <h4 class="panel-title"> <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+                      href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> السؤال الثانى</a> </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                  <div class="panel-body">
+                    إفطار صائم في رمضان .. ينقذ الأراوح
+                    يهلّ علينا شهر رمضان المبارك حاملاً لقلوبنا أملاً جديداً في طريقنا إلى الله عز وجل، وبالرغم من
+                    بركات
+                    هذا الشهر وأجواء بهجته، إلا أن حال أكثر من 800 مليون إنسان حول العالم لا يسرّ أحداً. تقارير هيئات
+                    الأمم المتحدة تدق ناقوس الخطر، فالجوع يهتك بأجساد مئات الآلاف من الأطفال حول العالم.
+                    في اليمن نزاعٌ يهدد حياة 24 مليون إنسان، وفي سوريا لجوءٌ وفقر ويتم يحرم ملايين الأسر من التجمع على
+                    مائدة الفطور، وفي النيجر وبنجلاديش فيضانات وكوارث تهدد الأمن الغذائي، وفي الصومال جفافٌ يجفف
+                    الحياة من
+                    أجساد أكثر من مليون طفل. الأمر الذي جعل قدوم شهر رمضان بلا أثرٍ يُذكَر على موائد الفقراء
+                    والمحتاجين،
+                    فهم المفطرون بلا إفطار والصائمون بلا سحور. </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title"> <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+                      href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> السؤال الثالث </a>
+                  </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+                    إفطار صائم في رمضان .. ينقذ الأراوح
+                    يهلّ علينا شهر رمضان المبارك حاملاً لقلوبنا أملاً جديداً في طريقنا إلى الله عز وجل، وبالرغم من
+                    بركات
+                    هذا الشهر وأجواء بهجته، إلا أن حال أكثر من 800 مليون إنسان حول العالم لا يسرّ أحداً. تقارير هيئات
+                    الأمم المتحدة تدق ناقوس الخطر، فالجوع يهتك بأجساد مئات الآلاف من الأطفال حول العالم.
+                    في اليمن نزاعٌ يهدد حياة 24 مليون إنسان، وفي سوريا لجوءٌ وفقر ويتم يحرم ملايين الأسر من التجمع على
+                    مائدة الفطور، وفي النيجر وبنجلاديش فيضانات وكوارث تهدد الأمن الغذائي، وفي الصومال جفافٌ يجفف
+                    الحياة من
+                    أجساد أكثر من مليون طفل. الأمر الذي جعل قدوم شهر رمضان بلا أثرٍ يُذكَر على موائد الفقراء
+                    والمحتاجين،
+                    فهم المفطرون بلا إفطار والصائمون بلا سحور. </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="menu1" class="tab-pane fade">
+          <div class="container-fluid reports">
+            <div class="row">
+              <div class="col-md-2 col-sm-3 col-xs-6 rido">
+                    <div class="thumbnail">
+                      <img src="images/project.png" class="img-responsive" alt="project">
+                      <div class="caption">
+                        <h3>تقرير إفطار صائم 2013</h3>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-md-2 col-sm-3 col-xs-6 rido">
+                      <div class="thumbnail">
+                        <img src="images/project.png" class="img-responsive" alt="project">
+                        <div class="caption">
+                          <h3>تقرير إفطار صائم 2013</h3>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-xs-6 rido">
+                            <div class="thumbnail">
+                              <img src="images/project.png" class="img-responsive" alt="project">
+                              <div class="caption">
+                                <h3>تقرير إفطار صائم 2013</h3>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-2 col-sm-3 col-xs-6 rido">
+                                  <div class="thumbnail">
+                                    <img src="images/project.png" class="img-responsive" alt="project">
+                                    <div class="caption">
+                                      <h3>تقرير إفطار صائم 2013</h3>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-2 col-sm-3 col-xs-6 rido">
+                                        <div class="thumbnail">
+                                          <img src="images/project.png" class="img-responsive" alt="project">
+                                          <div class="caption">
+                                            <h3>تقرير إفطار صائم 2013</h3>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-2 col-sm-3 col-xs-6 rido">
+                                              <div class="thumbnail">
+                                                <img src="images/project.png" class="img-responsive" alt="project">
+                                                <div class="caption">
+                                                  <h3>تقرير إفطار صائم 2013</h3>
+                                                </div>
+                                              </div>
+                                            </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <!-- start section loading -->
+  <div class="loading-overlay">
+
+    <div class="sk-cube-grid">
+      <div class="sk-cube sk-cube1"></div>
+      <div class="sk-cube sk-cube2"></div>
+      <div class="sk-cube sk-cube3"></div>
+      <div class="sk-cube sk-cube4"></div>
+      <div class="sk-cube sk-cube5"></div>
+      <div class="sk-cube sk-cube6"></div>
+      <div class="sk-cube sk-cube7"></div>
+      <div class="sk-cube sk-cube8"></div>
+      <div class="sk-cube sk-cube9"></div>
+    </div>
+
+  </div>
+  <!-- end section loading -->
+  <!-- start scroll Top -->
+  <div id="scroll_top">
+    <i class="fa fa-chevron-up fa-3x"></i>
+  </div>
+  <!-- start scroll Top -->
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery-2.1.1.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- My plugin js       -->
+  <script src="js/index.js"></script>
+  <!-- Wow.js library  -->
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <script>
+    const phoneInputField = document.querySelector("#phone");
+    const phoneInput = window.intlTelInput(phoneInputField, {
+      utilsScript:
+        "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+    });
+    const create_account_phone = document.querySelector("#create_account_phone");
+    const create_account_phoneInput = window.intlTelInput(create_account_phone, {
+      utilsScript:
+        "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+    });
+  </script>
+</body>
+
+</html>
