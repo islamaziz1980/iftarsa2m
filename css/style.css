@@ -1,18 +1,5 @@
-* {
-    box-sizing: border-box;
-    font-family: 'Tajawal';
-
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.lead {
-    font-family: 'Tajawal';
-}
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;900&display=swap');
+body{font-family: 'Tajawal', sans-serif; }
 .btn:active:focus, .btn:focus{
     outline: unset;
 }
@@ -27,19 +14,6 @@ a:hover{
 a:focus-within{
     text-decoration: none;
 
-}
-/* fonface*/
-@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;900&display=swap');
-/* fonface*/
-@font-face {
-    font-family: 'Tajawal';
-    src: url("../fonts/Tajawal-Regular.ttf");
-    src: url("../fonts/Tajawal-Black.ttf");
-    src: url("../fonts/Tajawal-Bold.ttf");
-    src: url("../fonts/Tajawal-ExtraBold.ttf");
-    src: url("../fonts/Tajawal-ExtraLight.ttf");
-    src: url("../fonts/Tajawal-Light.ttf");
-    src: url("../fonts/Tajawal-Medium.ttf");
 }
 /* begin color variable */
 :root {
@@ -75,7 +49,6 @@ a:focus-within{
 }
 
 body {
-  font-family: 'Tajawal', sans-serif;
     overflow: hidden;
 }
 
@@ -1022,7 +995,7 @@ select {
     }
     .breakfast_basket .nav-tabs>li>a{
         padding: 10px 0px;
-        font-size: 8px;
+        font-size: 16px;
     }
 
 
@@ -1091,7 +1064,12 @@ select {
 }
 /**********************************/
 @media only screen and (max-width: 700px){
-  .head-bg {background: url(../images/header/700.png) no-repeat center right;height: 286px;}}
+  .head-bg {background: url(../images/header/700.png) no-repeat center right;height: 286px;}
+  .breakfast_basket .nav-tabs>li>a{
+      padding: 10px 0px;
+      font-size: 16px;
+  }
+}
 /********************************************/
 @media only screen and (max-width: 650px){
   .head-bg {background: url(../images/header/650.png) no-repeat center right;height: 245px;}
@@ -1106,6 +1084,10 @@ select {
 
 @media only screen and (max-width: 500px){
   .head-bg {background: url(../images/header/500.png) no-repeat center right;height: 189px;}
+  .breakfast_basket .nav-tabs>li>a{
+      padding: 10px 0px;
+      font-size: 13px;
+  }
 }
 /***********************************/
 
@@ -1115,6 +1097,10 @@ select {
 /****************************************/
 @media only screen and (max-width: 425px){
   .head-bg {background: url(../images/header/425.png) no-repeat center right;height: 178px;}
+  .breakfast_basket .nav-tabs>li>a{
+      padding: 10px 0px;
+      font-size: 11px;
+  }
 }
 
 /******************************/
@@ -1124,7 +1110,12 @@ select {
 }
 /**************************************/
 @media only screen and (max-width: 340px)
-{.box-buttonz {right: 10%;}}
+{.box-buttonz {right: 10%;}
+.breakfast_basket .nav-tabs>li>a{
+    padding: 10px 0px;
+    font-size: 9px;
+}
+}
 /******************************************/
 @media only screen and (max-width: 320px){
   .head-bg {background: url(../images/header/320.png) no-repeat center right;height: 152px;}
