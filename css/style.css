@@ -512,7 +512,7 @@ nav .icon i {
 .payment_method input[type="radio"] {
     -webkit-appearance: none;
     appearance: none;
-    border-radius: 50%;
+    border-radius: 100%;
     outline: 3px solid #AFAFAF;;
     box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.1);
     height: 25px !important;
@@ -958,7 +958,7 @@ select {
 }
 /****************************************************/
 @media (max-width: 991.98px) {
-    .head-bg {background: url(../images/header/992.png) no-repeat center right;height: 375px;}
+    .head-bg {background: url(../images/header/992.svg) no-repeat center right;height: 375px;}
     .form-group {margin-bottom: 20px;}
     .breakfast_basket {margin-bottom: 2rem;}
 }
@@ -1070,7 +1070,7 @@ select {
 }
 /**********************************/
 @media only screen and (max-width: 700px){
-  .head-bg {background: url(../images/header/700.png) no-repeat center right;height: 286px;}
+  .head-bg {background: url(../images/header/700.svg) no-repeat center right;height: 286px;}
   .breakfast_basket .nav-tabs>li>a{
       padding: 10px 0px;
       font-size: 16px;
@@ -1078,18 +1078,18 @@ select {
 }
 /********************************************/
 @media only screen and (max-width: 650px){
-  .head-bg {background: url(../images/header/650.png) no-repeat center right;height: 245px;}
+  .head-bg {background: url(../images/header/650.svg) no-repeat center right;height: 245px;}
 }
 /*******************************************/
 @media only screen and (max-width: 550px){
-  .head-bg {background: url(../images/header/550.png) no-repeat center right;height: 208px;}
+  .head-bg {background: url(../images/header/550.svg) no-repeat center right;height: 208px;}
   .goog-log i { display: block; margin: auto; float: none;}
 .face-log i { display: block; margin: auto; float: none;}
 }
 /********************************************/
 
 @media only screen and (max-width: 500px){
-  .head-bg {background: url(../images/header/500.png) no-repeat center right;height: 189px;}
+  .head-bg {background: url(../images/header/500.svg) no-repeat center right;height: 189px;}
   .breakfast_basket .nav-tabs>li>a{
       padding: 10px 0px;
       font-size: 13px;
@@ -1099,32 +1099,31 @@ select {
 
 @media only screen and (max-width: 475px)
 {
-  .head-bg {background: url(../images/header/475.png) no-repeat center right;height: 188px;}
+  .head-bg {background: url(../images/header/475.svg) no-repeat center right;height: 188px;}
 /****************************************/
 @media only screen and (max-width: 425px){
-  .head-bg {background: url(../images/header/425.png) no-repeat center right;height: 178px;}
+  .head-bg {background: url(../images/header/425.svg) no-repeat center right;height: 178px;}
   .breakfast_basket .nav-tabs>li>a{
       padding: 10px 0px;
-      font-size: 11px;
+      font-size: 10px;
   }
 }
 
 /******************************/
 @media only screen and (max-width: 375px)
 {
-    .head-bg {background: url(../images/header/375.png) no-repeat center right;height: 178px;}
+    .head-bg {background: url(../images/header/375.svg) no-repeat center right;height: 178px;}
     .payment_method .radio-inline {padding-right: 0px !important;}
+    .breakfast_basket .nav-tabs>li>a{padding: 10px 0px;font-size: 9px;}
+    .breakfast_basket .nav-tabs>li>a span {;font-size: 13px;}
 }
 /**************************************/
 @media only screen and (max-width: 340px)
 {.box-buttonz {right: 10%;}
-.breakfast_basket .nav-tabs>li>a{
-    padding: 10px 0px;
-    font-size: 9px;
-}
+
 }
 /******************************************/
 @media only screen and (max-width: 320px){
-  .head-bg {background: url(../images/header/320.png) no-repeat center right;height: 152px;}
+  .head-bg {background: url(../images/header/320.svg) no-repeat center right;height: 152px;}
 
 }
